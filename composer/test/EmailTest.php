@@ -10,6 +10,16 @@ use PHPUnit\Framework\TestCase;
  */
 final class EmailTest extends TestCase
 {
+
+    public function testEcho(): void
+    {
+        echo "Hello World!";
+        $this->assertEquals(
+            'HelloWorld',
+            'HelloWorld'
+        );
+    }
+
     public function testCanBeCreatedFromValidEmailAddress(): void
     {
         $this->assertInstanceOf(
