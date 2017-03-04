@@ -55,6 +55,7 @@ db_pass: wordpress
 #
 plugins: []
 
+plugins_activate: ['bergclub-plugin']
 #
 # WordPress Default Theme
 # Theme's slug or url to the theme's .zip.

@@ -112,6 +112,13 @@
       --path={{ path }}
     with_items: "{{ vccw.plugins | default([]) }}"
 
+  # Activate Plugins
+  - name: Run `wp plugin activate`
+    command: |
+      wp plugin activate {{ item }}
+      --path={{ path }}
+    with_items: "{{ vccw.plugins_activate | default([]) }}"
+
   # Install wp-multibyte-patch
   - name: Run `wp plugin install wp-multibyte-patch`
     command: |
