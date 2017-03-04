@@ -3,4 +3,4 @@ php:
 - 5.4
 - 7.1
 - hhvm
-script: phpunit composer/test/EmailTest.php
+script: phpunit --bootstrap composer/test/Email.php composer/test/EmailTest.php
