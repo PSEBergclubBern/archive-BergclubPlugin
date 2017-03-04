@@ -1,4 +1,5 @@
 language: php
 php:
+- 5.4
 - 7.1
 script: phpunit --bootstrap composer/test/Email.php composer/test/EmailTest.php
