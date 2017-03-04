@@ -4,13 +4,13 @@
  */
 /*
 Plugin Name: Bergclub-Plugin
-Plugin URI: https://google.ch
-Description: Placeholder
-Version: 3.2
-Author: Automattic
-Author URI: https://automattic.com/wordpress-plugins/
+Plugin URI: https://github.com/PSEBergclubBern/BergclubPlugin
+Description: This Plugin is designed to modify an existing wordpress installation to the needs of the customer
+Version: 1.0
+Author: PSE
+Author URI: http://unibe.ch
 License: GPLv2 or later
-Text Domain: google
+Text Domain: unibe.ch
 */
 
 // Make sure we don't expose any info if called directly
