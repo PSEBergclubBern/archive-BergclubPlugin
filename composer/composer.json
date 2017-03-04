@@ -1,0 +1,17 @@
+{
+  "name": "root/project",
+  "authors": [
+    {
+      "name": "watzerm",
+      "email": "some.email@provider.at"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "5.4.*"
+  },
+  "autoload": {
+    "classmap": [
+      "unittesting/"
+    ]
+  }
+}
