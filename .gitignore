@@ -9,3 +9,4 @@ npm-debug.log
 package.box
 playbook.retry
 vendor
+*.swp
