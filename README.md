@@ -20,7 +20,7 @@ If you are finished with your work, you can commit your changes (bear in mind ou
 The plugin resides in wordpress/wp-content/plugins/bergclub-plugin
 
 ## Wordpress installation
-1. The wordpress site is accessible through IP (192.168.33.10) or through the URL vccw.dev 
+1. The wordpress site is accessible through IP (192.168.33.10) or through the URL vccm.dev 
 2. The username / password for the wp site is 'admin'/'admin'
 
 ## Howto Test
