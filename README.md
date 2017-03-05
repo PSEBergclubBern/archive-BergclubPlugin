@@ -29,4 +29,5 @@ The plugin resides in wordpress/wp-content/plugins/bergclub-plugin
 
 ## Important information for Windows user
 Vagrant can't change the hosts file on Windows. To ensure that the environment works, you have to add following lines to the hosts file (it's in the path C:\Windows\system32\drivers\etc)
+
 `192.168.33.11  vccm.local`
