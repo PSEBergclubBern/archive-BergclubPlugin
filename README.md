@@ -20,9 +20,14 @@ If you are finished with your work, you can commit your changes (bear in mind ou
 The plugin resides in wordpress/wp-content/plugins/bergclub-plugin
 
 ## Wordpress installation
-1. The wordpress site is accessible through IP (192.168.33.10) or through the URL vccm.dev 
+1. The wordpress site is accessible through IP (192.168.33.10) or through the URL vccm.local 
 2. The username / password for the wp site is 'admin'/'admin'
 
 ## Howto Test
 1. Tests are stored in the plugin directory
 2. With `vagrant ssh` you can ssh into your virtual machine. There you should change to the /vagrant directory (cd /vagrant) and run the command `phpunit`
+
+## Important information for Windows user
+Vagrant can't change the hosts file on Windows. To ensure that the environment works, you have to add following lines to the hosts file (it's in the path C:\Windows\system32\drivers\etc)
+
+`192.168.33.10  vccm.local`
