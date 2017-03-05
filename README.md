@@ -26,3 +26,7 @@ The plugin resides in wordpress/wp-content/plugins/bergclub-plugin
 ## Howto Test
 1. Tests are stored in the plugin directory
 2. With `vagrant ssh` you can ssh into your virtual machine. There you should change to the /vagrant directory (cd /vagrant) and run the command `phpunit`
+
+## Important information for Windows user
+Vagrant can't change the hosts file on Windows. To ensure that the environment works, you have to add following lines to the hosts file (it's in the path C:\Windows\system32\drivers\etc)
+`192.168.33.11  vccm.local`
