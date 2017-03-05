@@ -10,3 +10,10 @@ package.box
 playbook.retry
 vendor
 *.swp
+
+wordpress/*
+!wordpress/wp-content
+wordpress/wp-content/*
+!wordpress/wp-content/plugins
+wordpress/wp-content/plugins/*
+!wordpress/wp-content/plugins/bergclub-plugin
