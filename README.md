@@ -9,8 +9,9 @@ This plugin is part of a project in PSE with the goal, that the current website 
 This project has an Vagrant configuration File in the root. The general procedure is:
 
 1. Install Vagrant (https://www.vagrantup.com/) and VirtualBox (https://www.virtualbox.org/)
-2. Clone this repository in a directory
-3. Navigate to that directory in a terminal and run the command `vagrant up`
+2. Install the vagrant plugin (`vagrant plugin install vagrant-hostsupdater`) for automatically adding host entries (only Linux / Mac).
+3. Clone this repository in a directory
+4. Navigate to that directory in a terminal and run the command `vagrant up`
 
 Now a virtual machine is created and provisioned. If for some reason the configuration failes, you can retry the provisioning with `vagrant provision`. If for some reason this also fails, try to destroy the local environment with `vagrant destroy` and do a `vagrant up` afterwards.
 
