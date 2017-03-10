@@ -2,7 +2,7 @@
 
 use PHPUnit\Framework\TestCase;
 
-include "$_SERVER[DOCUMENT_ROOT]/wordpress/wp-content/plugins/bergclub-plugin/include/FavColours.php";
+include "../include/FavColours.php";
 
 
 class TestFavColours extends TestCase
