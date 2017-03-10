@@ -2,7 +2,7 @@
 
 use PHPUnit\Framework\TestCase;
 
-include "../include/FavColours.php";
+include __DIR__ . "/../include/FavColours.php";
 
 
 class TestFavColours extends TestCase
